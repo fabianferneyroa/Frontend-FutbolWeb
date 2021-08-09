@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Futbol Web</title>
+</head>
+
+<body>
+    <!-- Contenedor Formulario Login -->
+    <div id="login-container" class="login-container">
+        <div class="login-box">
+            <form action="">
+                <div class="form_login">
+                    <label for="user_login">Usuario</label>
+                    <input type="text" name="user_login" id="user_login">
+                    <label for="password_login">Contraseña</label>
+                    <input type="password" name="password_login" id="password_login">
+                    <button onclick="loginScreen()" type="submit">Acceder</button>
+                    <a class="link" href="#" target="_blank">Registrar usuarios</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Contenedor Formulario Login -->
+
+
+    <!-- Contenedor botones menú -->
+    <div class="menu-container">
+        <button type="submit">Registrar Partidos</button>
+        <button class="verde" type="submit">Ver Partidos</button>
+    </div>
+    <!-- Contenedor botones menú -->
+
+    <!-- Contenedor registro goles -->
+    <div id="goles-container" class="goles-container">
+        <div class="container-goles">
+            <form action="">
+                <div class="goles-form">
+                    <label for="equipoLocal">/* equipo local */</label>
+                    <label for="golesEquipoLocal">Numero de goles Equipo Local</label>
+                    <input type="text" name="golesEquipoLocal" id="golesEquipoLocal">
+                    <label for="equipoVisitante">/* equipo visitante */</label>
+                    <label for="golesEquipoVisitante">Numero de goles Equipo Visitante</label>
+                    <input type="text" name="golesEquipoVisitante" id="golesEquipoVisitante">
+                    <button type="submit">Registrar Goles</button>
+                </div>
+        </div>
+        </form>
+    </div>
+    </div>
+    <!-- Contenedor registro goles -->
+
+    <!-- Contenedor registro usuarios -->
+    <div id="usuarios-container" class="usuarios-container">
+        <div class="container-usuario">
+            <form action="">
+                <div class="usuario-form">
+                    <label for="nombreUsuario" class="label">Nombre</label>
+                    <input type="text" name="nombreUsuario" id="nombreUsuario">
+                    <label for="correoUsuario" class="label">Correo Electronico</label>
+                    <input type="text" name="correoUsuario" id="correoUsuario">
+                    <label for="username" class="label"> Usuario</label>
+                    <input type="text" name="username" id="username">
+                    <label for="passwordU" class="label">Contraseña</label>
+                    <input type="password" name="passwordU" id="passwordU">
+                    <button type="submit">Registrar Usuario</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Contenedor registro usuarios -->
+
+    <!-- Contenedor registro Partidos -->
+    <div id="partidos-container" class="partidos-container">
+        <div class="container-partido">
+            <form action="">
+                <div class="partido-form">
+                    <label for="equL" class="label">Equipo Local</label>
+                    <input type="text" name="txtEquipoLocal">
+                    <label for="gol_EquL" class="label">Goles Equipo Local</label>
+                    <input type="text" name="txtGolesEquipoLocal">
+                    <label for="equV" class="label">Equipo Visitante</label>
+                    <input type="text" name="txtEquipoVisitante">
+                    <label for="gol_EquV" class="label">Goles Equipo Visitante</label>
+                    <input type="text" name="txtGolesEquipoVisitante">
+                    <label for="fec" class="label">Fecha Partido</label>
+                    <input type="text" name="txtFecha">
+                    <button type="submit">Registrar Partido</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Contenedor registro Partidos -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
