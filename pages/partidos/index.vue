@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="#">
+    <div class="#">
       <button @click="$router.push('/partidos/nuevo')">Agregar partido</button>
       <button @click="editMode = !editMode">{{ editMode ? 'Salir del' : 'Entrar al'}} modo de edición</button>
     <table>
@@ -38,6 +39,7 @@
           </tr>
       </tbody>
     </table>
+    </div>
   </div>
 </template>
 <script>
