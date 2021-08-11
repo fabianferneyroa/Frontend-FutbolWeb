@@ -85,6 +85,20 @@ button, a {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+th{
+
+background-color: teal;
+border: 2px solid black;
+padding: 10px;
+color: white;
+
+}
+tr{
+
+  border: 2px solid black;
+  background-color: rgba(226, 219, 114, 0.932);
+
+}
 
 .d-none {
   display: none;
