@@ -39,6 +39,7 @@
 </template>
 <script>
 export default {
+   layout: 'auth',
   data: () => ({
     payload: {},
   }),

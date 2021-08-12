@@ -8,7 +8,7 @@
           <label for="password_login">Contraseña</label>
           <input type="password" name="password_login" id="password_login" v-model="credenciales.contraseña" />
           <button type="submit">Acceder</button>
-          <nuxt-link class="test" to="/registro">Registrar usuarios</nuxt-link>
+          <nuxt-link  class="test" to="/registroUsuario">Registrar usuarios</nuxt-link>
         </div>
       </form>
     </div>
