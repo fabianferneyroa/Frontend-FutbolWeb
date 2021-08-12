@@ -3,10 +3,6 @@
     <div class="container-partido">
       <form @submit.prevent="submit">
         <div class="partido-form">
-          <label for="nombreUsuario">Nombre Usuario</label>
-          <label for="nombreUsuarioBD" id="nombreUsuarioBD"
-            >/*Nombre usuario*/</label
-          >
           <label for="equipoLocal" class="label">Equipo Local</label>
           <input
             type="text"
